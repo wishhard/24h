@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">24h</string>
+
+    <string name="default_time">00:00:00</string>
+
+    <string name="cu_checked_summary">The timer will count up to 24:00:00.</string>
+    <string name="cu_unchecked_summary">The timer will countdown to 00:00:00.</string>
+    <string name="cu_pref_title">Countup</string>
+
+    <string name="kso_checked_summary">Screen light remains on if timer runs.
+            Screen light automatically dims or turns off depending on screen timeout setting.</string>
+    <string name="kso_unchecked_summary">Screen light turns off depending on screen timeout setting.
+            Timer automatically shops when screen light turns off.</string>
+    <string name="kso_pref_title">Keep screen on</string>
+
+    <string name="se_checked_summary">Sound plays if timer runs.</string>
+    <string name="se_unchecked_summary">Silent timer.</string>
+    <string name="se_pref_title">Sound effect</string>
+</resources>

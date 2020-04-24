@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/act"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wishhard.h24.WatchActivity">
+
+
+    <com.wishhard.h24.view.StopWatch
+        android:id="@+id/sw_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal">
+
+    </com.wishhard.h24.view.StopWatch>
+
+
+    <com.wishhard.h24.view.TheFrame
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#44000000">
+
+        <com.wishhard.h24.view.TopOptions
+            android:id="@+id/settingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:imageSrc="@drawable/settings">
+
+        </com.wishhard.h24.view.TopOptions>
+
+        <com.wishhard.h24.view.TopOptions
+            android:id="@+id/setTimerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:imageSrc="@drawable/set_time">
+
+        </com.wishhard.h24.view.TopOptions>
+
+
+        <com.wishhard.h24.view.CenterOptions
+            android:id="@+id/co_reset_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:imageState1_src="@drawable/reset_enabled"
+            app:imageState2_src="@drawable/reset_pressed"
+            app:imageState3_src="@drawable/reset_disabled"
+            app:hasState_list="true">
+        </com.wishhard.h24.view.CenterOptions>
+
+        <com.wishhard.h24.view.CenterOptions
+            android:id="@+id/co_play_n_pase_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:imageState1_src="@drawable/play_enabled"
+            app:imageState2_src="@drawable/play_pase"
+            app:imageState3_src="@drawable/play_disabled">
+        </com.wishhard.h24.view.CenterOptions>
+
+    </com.wishhard.h24.view.TheFrame>
+
+     <FrameLayout
+         android:id="@+id/wheeler"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true">
+
+     </FrameLayout>
+
+
+
+
+
+</RelativeLayout>

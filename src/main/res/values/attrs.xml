@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopOptions">
+        <attr name="imageSrc" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CenterOptions">
+        <attr name="imageState1_src" format="reference" />
+        <attr name="imageState2_src" format="reference" />
+        <attr name="imageState3_src" format="reference" />
+        <attr name="hasState_list" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="WheelerFargBtn">
+        <attr name="wheeler_btn_bg" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PrefTitleAndSummary">
+        <attr name="title_or_summary" format="integer"/>
+    </declare-styleable>
+</resources>
